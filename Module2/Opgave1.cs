@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Module2
 {
-    class Program
+    class Opgave1
     {
         static void Main(string[] args)
         {
@@ -21,12 +21,13 @@ namespace Module2
 
             Console.WriteLine("Today is {0:d}", DateTime.Today);
             Console.ReadKey();
+
             // Console.ReadLine();
         }
-        /// <summery>
-        /// method MyTest is the start up method
-        /// </summery>
-
+ 
+        /// <summary>
+        /// 1313131321
+        /// </summary>
         private static void MyTest()
         {
 
