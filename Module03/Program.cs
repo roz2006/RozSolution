@@ -68,7 +68,7 @@ namespace Module03
                 p.sex = gender.Woman;
 
             Console.WriteLine("Input this person's age:");
-            p.age = Convert.ToInt32(Console.ReadLine());
+            p.age = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Input this person's job:");
             p.job = Console.ReadLine();

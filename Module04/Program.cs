@@ -11,15 +11,21 @@ namespace Module04
         static void Main(string[] args)
         {
             Console.WriteLine("Input number of months to calculate the average:");
-            string number = Console.ReadLine();
-            int n = Convert.ToInt32(number);
+            string numberofMonth = Console.ReadLine();
+            int n = int.Parse(numberofMonth);
 
             int[] monthlySalary = new int[n];
 
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine("Input number {0} of the month salary:",i+1);
-                monthlySalary[i] = Convert.ToInt32(Console.ReadLine());
+                monthlySalary[i] = int.Parse(Console.ReadLine());
+            }
+            Array.Sort(monthlySalary);
+            Console.WriteLine("Sorted monthly salary is:");
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(monthlySalary[i]);
             }
 
             Console.WriteLine("Average salary of {0} months is {1}.", n, monthlySalary.Sum() / n);

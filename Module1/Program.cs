@@ -12,7 +12,7 @@ namespace Module1
 
         {
             Console.WriteLine("Input a number:");
-            int number= Convert.ToInt32(Console.ReadLine());
+            int number= int.Parse(Console.ReadLine());
             PrintNumber.PrintInteger(number);
             Console.ReadKey();
             
