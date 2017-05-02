@@ -12,16 +12,11 @@ namespace Module1
         static void Main(string[] args)
 
         {
-            //Console.WriteLine("Hello World!!!");
-            
-            Console.ReadLine();
-            
             Console.WriteLine("Input a number:");
             int number= Convert.ToInt32(Console.ReadLine());
             PrintNumber.PrintInteger(number);
             Console.ReadKey();
-
-            // test a change to be synced.
+            
         }
     }
 

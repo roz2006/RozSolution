@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Module2
 {
-    class Opgave1
+    class Program
     {
         static void Main(string[] args)
         {
@@ -17,12 +17,10 @@ namespace Module2
             Name = Name.ToUpper();
 
             Console.WriteLine("Welcome {0}", Name);
-            //DateTime today=new DateTime
-
+            
             Console.WriteLine("Today is {0:d}", DateTime.Today);
             Console.ReadKey();
-
-            // Console.ReadLine();
+            
         }
  
         /// <summary>
